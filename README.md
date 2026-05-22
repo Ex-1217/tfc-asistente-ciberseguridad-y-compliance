@@ -7,10 +7,7 @@ Fundación GoodJob · Mayo – junio 2026
 
 ¿Qué es este proyecto?
 
-Este proyecto es mi Trabajo de Fin de Curso del programa #include13 de la Fundación GoodJob. He tardado casi dos semanas en conseguir que funcionara, con muchos intentos fallidos por el camino, y al final pude construirlo con ayuda de Claude como herramienta de apoyo.
-
-El asistente es un chatbot de ciberseguridad para MIDTECH S.A., una empresa ficticia del sector farmacéutico. Lee los documentos de normativa y la política de seguridad de la empresa, y responde preguntas sobre cumplimiento legal en lenguaje normal.
-El mayor reto ha sido construir el flujo en n8n desde cero — tuve problemas con la conexión de los nodos, con la API de Gemini que agotó la cuota gratuita durante las pruebas, y con entender cómo funciona el RAG para que el asistente busque en los documentos y no responda de memoria. Al final conseguí montarlo todo y aprender cómo funciona por dentro.
+Este proyecto es mi Trabajo de Fin de Curso del programa #include13 de la Fundación GoodJob. He construido un asistente conversacional de ciberseguridad para MIDTECH S.A., una empresa ficticia del sector farmacéutico, integrando herramientas de inteligencia artificial sin necesidad de programar.
 
 ¿Qué puede hacer?
 
