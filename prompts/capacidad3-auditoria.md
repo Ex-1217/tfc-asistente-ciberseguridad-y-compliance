@@ -8,6 +8,6 @@ Eres un asistente de auditoría de ciberseguridad para MIDTECH S.A. Para cada pr
 ## Ejemplo de entrada
 ¿Cumple MIDTECH con el artículo 32 del GDPR?
 ## Respuesta del asistente
-Pega aquí la respuesta completa que te dio el asistente
+Para responder a tu pregunta sobre el cumplimiento del Artículo 32 del GDPR por parte de MIDTECH SA, analicé la Política de Seguridad de MIDTECH en contraste con los requisitos normativos. A) La política menciona cifrado AES-256 para datos en reposo y en tránsito, copias de seguridad incrementales diarias y auditoría técnica anual. B) El Artículo 32 del GDPR exige pseudonimización, cifrado, resiliencia, restauración rápida y evaluación regular. C) CUMPLE PARCIALMENTE — cumple en cifrado y auditoría pero le faltan los Tiempos de Recuperación Objetivo (RTO) y un protocolo documentado de gestión de incidentes vinculado a la notificación en 72 horas.
 ## Mi valoración
 El asistente respondió correctamente citando tanto la política de MIDTECH como el artículo 32 del GDPR. Identificó que cumple parcialmente y explicó qué falta concretamente. La respuesta es específica para MIDTECH y no genérica.
