@@ -5,6 +5,11 @@ Fundación GoodJob · Mayo – junio 2026
 
 ---
 
+<img width="1200" height="675" alt="0370dd28-0837-4f4a-a24b-e15f647b3eb9_alta-libre-aspect-ratio_default_0" src="https://github.com/user-attachments/assets/097f4e96-fd70-47b7-bd93-7db31182957c" />
+
+
+
+
 ¿Qué es este proyecto?
 
 Este proyecto es mi Trabajo de Fin de Curso del programa #include13 de la Fundación GoodJob. He construido un asistente conversacional de ciberseguridad para MIDTECH S.A., una empresa ficticia del sector farmacéutico, integrando herramientas de inteligencia artificial sin necesidad de programar.
