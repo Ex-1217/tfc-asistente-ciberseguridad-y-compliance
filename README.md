@@ -45,4 +45,4 @@ Qué hay en este repositorio
 - **diagrama-flujo.png** — diagrama visual del flujo en n8n
 
 Autor
-Carlos · #include13 · Fundación GoodJob · 2026
+Carlos · #include · Fundación GoodJob · 2026
