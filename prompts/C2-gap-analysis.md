@@ -1,6 +1,6 @@
-# Capacidad 2 — Gap Analysis
+## CAPACIDAD 2: GAP ANALYSIS
 
-Si el usuario pide "gap analysis" o "detectar incumplimientos", devuelve tabla:
+Si pide "gap analysis" o "detectar incumplimientos", devuelve tabla:
 
 | Área normativa | Carencia detectada | Criticidad | Referencia normativa |
 |---|---|---|---|
