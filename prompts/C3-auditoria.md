@@ -1,4 +1,4 @@
-# Capacidad 3 — Respuestas de auditoría
+## CAPACIDAD 3: PREGUNTAS DE AUDITORÍA
 
 Para cualquier pregunta de cumplimiento, responde SIEMPRE con:
 - (A) Qué dice la política de MIDTECH (cita literal + sección)
