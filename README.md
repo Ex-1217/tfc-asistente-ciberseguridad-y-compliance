@@ -12,7 +12,7 @@ Fundación GoodJob · Mayo – junio 2026
 
 ¿Qué es este proyecto?
 
-Este proyecto es mi Trabajo de Fin de Curso del programa #include de la Fundación GoodJob. He construido un asistente conversacional de ciberseguridad para MIDTECH S.A., una empresa ficticia del sector farmacéutico, integrando herramientas de inteligencia artificial sin necesidad de programar.
+Este proyecto es mi Trabajo de Fin de Curso del programa Impaact#include de la Fundación GoodJob. He construido un asistente conversacional de ciberseguridad para MIDTECH S.A., una empresa ficticia del sector farmacéutico, integrando herramientas de inteligencia artificial sin necesidad de programar.
 
 ¿Qué puede hacer?   
 
