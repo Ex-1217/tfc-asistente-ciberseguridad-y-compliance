@@ -69,4 +69,4 @@ Las credenciales de acceso se facilitan al evaluador en documento separado a tra
 
 ---
 
-**Autor:** Carlos López Urbaneja · #include13 · Fundación GoodJob · 2026
+**Autor:** Carlos López Urbaneja  2026
