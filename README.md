@@ -1,48 +1,72 @@
-Asistente de Ciberseguridad y Compliance con IA
+# Asistente de Ciberseguridad y Compliance con IA
 
-Trabajo de Fin de Curso — Programa #IMPACT #include
-Fundación GoodJob · Mayo – junio 2026
+**Trabajo de Fin de Curso — Programa #IMPACT #include13 · Fundación GoodJob · Mayo – junio 2026**
 
 ---
 
-<img width="1200" height="675" alt="0370dd28-0837-4f4a-a24b-e15f647b3eb9_alta-libre-aspect-ratio_default_0" src="https://github.com/user-attachments/assets/097f4e96-fd70-47b7-bd93-7db31182957c" />
+## ¿Qué es este proyecto?
 
+Este proyecto es mi Trabajo de Fin de Curso del programa #IMPACT #include13 de la Fundación GoodJob. He construido un asistente conversacional de ciberseguridad y compliance para MIDTECH SA, una empresa ficticia del sector farmacéutico, integrando herramientas de inteligencia artificial sin necesidad de programar.
 
+El asistente permite al responsable de seguridad o al DPD de MIDTECH hacer preguntas en lenguaje natural y recibir respuestas concretas citando tanto la política interna de la empresa como los artículos o controles normativos correspondientes (GDPR, ISO 27001 y ENS).
 
+---
 
-¿Qué es este proyecto?
+## ¿Qué puede hacer?
 
-Este proyecto es mi Trabajo de Fin de Curso del programa Impaact#include de la Fundación GoodJob. He construido un asistente conversacional de ciberseguridad para MIDTECH S.A., una empresa ficticia del sector farmacéutico, integrando herramientas de inteligencia artificial sin necesidad de programar.
-
-¿Qué puede hacer?   
-
-- Analizar la política de seguridad de MIDTECH y ver qué falta
+- Analizar la política de seguridad de MIDTECH e identificar qué áreas cubre y qué falta
 - Detectar incumplimientos comparándola con GDPR, ISO 27001 y ENS
-- Responder preguntas de auditoría citando los documentos reales
-- Proponer mejoras ordenadas por importancia
+- Responder preguntas de auditoría citando la política interna y la normativa exacta
+- Proponer mejoras concretas ordenadas por prioridad y esfuerzo
 
-Herramientas que he usado
+---
+
+## Herramientas utilizadas
 
 | Para qué | Herramienta |
 |---|---|
-| Crear el flujo | n8n |
-| Inteligencia artificial | Google Gemini 2.0 Flash |
-| Buscar en los documentos | Tienda de vectores de n8n |
+| Crear el flujo | n8n Cloud |
+| Inteligencia artificial | Google Gemini Pro (gemini-pro-latest) |
+| Buscar en los documentos | Tienda de vectores simple de n8n |
+| Embeddings (indexación) | Google Gemini Embeddings (gemini-embedding-001) |
 | Memoria del chat | Memoria simple de n8n |
 | Guardar los documentos | Google Drive |
 
-Documentos que tiene el asistente
+---
 
-- GDPR — Reglamento europeo de protección de datos
-- ISO 27001 — Estándar de seguridad de la información
-- ENS — Esquema Nacional de Seguridad español
-- Política de Seguridad de MIDTECH S.A. (facilitada por el profesor)
+## Documentos que tiene el asistente
 
-Qué hay en este repositorio
+- **GDPR** — Reglamento General de Protección de Datos (UE 2016/679)
+- **ISO 27001** — Estándar internacional de seguridad de la información (versión 2022)
+- **ENS** — Esquema Nacional de Seguridad (Real Decreto 311/2022)
+- **Política de Seguridad de MIDTECH SA** — facilitada por el profesor
 
-- **/prompts** — los 4 prompts que controlan el comportamiento del asistente
-- **ARCHITECTURE.md** — cómo está montado el sistema
-- **diagrama-flujo.png** — diagrama visual del flujo en n8n
+---
 
-Autor
-Carlos · #include · Fundación GoodJob · 2026
+## Cómo funciona
+
+El sistema tiene dos flujos en n8n:
+
+**Flujo 1 — Chat:** el usuario envía una pregunta, el agente busca en los documentos indexados, recupera los fragmentos relevantes y Gemini genera la respuesta citando fuentes concretas.
+
+**Flujo 2 — Indexación:** se ejecuta una vez por documento. Descarga el PDF de Google Drive, extrae el texto y lo almacena en la tienda de vectores para que el Flujo 1 pueda consultarlo.
+
+---
+
+## Qué hay en este repositorio
+
+- `/prompts` — los 4 prompts que controlan el comportamiento del asistente
+- `ARCHITECTURE.md` — descripción técnica de cómo está montado el sistema
+- `diagrama-flujo.png` — diagrama visual de los dos flujos en n8n
+
+---
+
+## Acceso al asistente
+
+URL: `https://proyecto-midtech.app.n8n.cloud/webhook/3426a235-152d-4bcf-a3b3-d11ab231b784/chat`
+
+Las credenciales de acceso se facilitan al evaluador en documento separado a través de Scola.
+
+---
+
+**Autor:** Carlos López Urbaneja · #include13 · Fundación GoodJob · 2026
