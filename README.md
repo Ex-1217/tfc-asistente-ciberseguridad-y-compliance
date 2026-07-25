@@ -56,16 +56,8 @@ El sistema tiene dos flujos en n8n:
 ## Qué hay en este repositorio
 
 - `/prompts` — los 4 prompts que controlan el comportamiento del asistente
-- `ARCHITECTURE.md` — descripción técnica de cómo está montado el sistema
-- `diagrama-flujo.png` — diagrama visual de los dos flujos en n8n
-
----
-
-## Acceso al asistente
-
-URL: `https://proyecto-midtech.app.n8n.cloud/webhook/3426a235-152d-4bcf-a3b3-d11ab231b784/chat`
-
-Las credenciales de acceso se facilitan al evaluador en documento separado a través de Scola.
+- `ARQUITECTURA.md` — descripción técnica de cómo está montado el sistema
+- `DIAGRAMA DE FLUJO.png` — diagrama visual de los dos flujos en n8n
 
 ---
 
