@@ -41,6 +41,3 @@ Este flujo se ejecuta una vez para indexar todos los documentos.
 
 ---
 
-## URL del asistente
-
-`https://proyecto-midtech.app.n8n.cloud/webhook/3426a235-152d-4bcf-a3b3-d11ab231b784/chat`
