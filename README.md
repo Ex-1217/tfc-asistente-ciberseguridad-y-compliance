@@ -61,4 +61,4 @@ El sistema tiene dos flujos en n8n:
 
 ---
 
-**Autor:** Carlos L 2026
+**Autor:** Carlos  2026
