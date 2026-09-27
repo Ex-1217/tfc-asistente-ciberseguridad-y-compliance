@@ -61,6 +61,8 @@ El sistema tiene dos flujos en n8n:
 - `ARQUITECTURA.md` — descripción técnica de cómo está montado el sistema
 - `DIAGRAMA DE FLUJO.png` — diagrama visual de los dos flujos en n8n
 
+- [Ver el vídeo del TFC](https://youtu.be/4u9fiZjX_ts)
+
 ---
 
 **Autor:** Carlos  2026
