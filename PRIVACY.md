@@ -11,7 +11,7 @@ n8n-TFC es una aplicación de **uso personal** que conecta mi instancia privada 
 
 ## Dónde se procesan
 - Los datos se procesan en mi instancia de n8n, que se ejecuta en mi propio ordenador.
-- El contenido de los correos se envía a la API de **Google Gemini** para clasificarlos y redactar borradores.
+- El contenido de los correos se envía a la API de **Groq** para clasificarlos y redactar borradores.
 - No se venden, no se comparten con terceros y no se usan con fines publicitarios.
 
 ## Cómo revocar el acceso
